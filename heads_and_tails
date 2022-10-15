@@ -1,0 +1,13 @@
+import random
+seed = int(input("Create a seed number:"))
+random.seed(seed)
+random = random.randint(0, 1)
+if random == 0:
+    print("Heads")
+else:
+    print("Tails")
+
+
+
+
+
